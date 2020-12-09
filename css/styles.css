@@ -1,0 +1,26 @@
+@import "reset.css";
+
+body{
+    @font-face {
+        font-family:'Open Sans', sans-serif;
+    }
+}
+
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-bar__column{
+    padding: 5px;
+}
+
+.header-welcome{
+    margin: 15%;
+    text-align: center;
+}
+
+.header-welcome__title{
+    font-size: 15px;
+    font-weight: 500;
+}
